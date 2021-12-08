@@ -1,0 +1,108 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+.header{
+	display: flex;
+	width: 100%;
+	height: 75px;
+	justify-content: space-between;
+	background-color: #035b85;
+    box-shadow: 0px 2px 12px 0px rgba(102, 102, 102, 0.2);
+}
+
+.header h3{
+    color: white;
+	margin-left: 0px;
+	margin-top: 20px;
+    font-size: 17px;
+    letter-spacing: 1px;
+	font-family: 'Rock Salt', cursive;
+	font-weight: 200;
+}
+
+.header_left{
+	display: flex;
+	align-content: center;
+	padding-left: 50px;
+}
+
+.header_left img{
+	object-fit: contain;
+	height: 80px;
+	margin-left: 0px;
+	margin-top: 0px;
+    margin-right: 0px;
+}
+
+.header_right{
+	display: flex;
+	margin-top: 6px;
+    margin-right: 50px;
+}
+
+.header_right img {
+    height: 65px;
+}
+.user_details{
+	display: flex;
+	margin: 10px;
+	padding-left: 20px;
+	background-color: #C4C4C4;
+	border-radius: 10px;
+}
+.user_details_credentials{
+	display: flex;	
+}
+.user_details_credentials h6{
+	font-size: 14px;
+	padding: 0px;
+	margin-top: 0px;
+}
+.user_details_credentials p{
+	font-size: 13px;
+	margin-top: 0px;
+	margin-left: 30px;
+}
+.user_address{
+	margin: 10px;
+	padding-left: 20px;
+	background-color: #C4C4C4;
+	border-radius: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.user_order_summary{
+	margin: 10px;
+	padding-left: 20px;
+	background-color: #C4C4C4;
+	border-radius: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.order_summary_product_list{
+	display: inline-flex;
+}
+.order_summary_product_list p{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.user_order_payment_details{
+	margin: 10px;
+	padding-left: 20px;
+	background-color: #C4C4C4;
+	border-radius: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.user_order_payment_details input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.orderplaced img{
+	margin-left: 420px;
+	height: 620px;
+}
+.productTable td{
+	padding: 10px;
+}
